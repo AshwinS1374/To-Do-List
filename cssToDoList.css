@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: grey;
+}
+
+.heading {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.boxarea {
+    height: 450px;
+    width: 750px;
+    background-color: rgb(79, 75, 75);
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    overflow: hidden; /* Hide any potential overflow within the boxarea */
+}
+
+.nochange {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.search {
+    width: 80%;
+    margin-top: 3px;
+    margin-left: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.datetime {
+    margin-top: 9px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+
+
+.addbtn button {
+    margin-top: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.clearbtn button{
+    padding:4px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    margin-top :17px;
+    margin-left:14px;
+}
+
+.newtasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 350px;
+    width: 95%;
+    margin-right: auto;
+    margin-left:auto;
+    padding-right: 10px;
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+
+
+
+.task {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #ccc; /* Adjust as needed for visual separation */
+    margin-bottom: 10px; 
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 96%; 
+}
+
+.prioritylvl {
+    display: flex;
+    font-weight: bold;
+    margin: 14px;
+    height: 31px;
+    width: 30px;
+    background-color: red;
+    color:white;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.newcontent {
+    text-align: center;
+    margin: 14px;
+    height: fit-content;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    background-color: lightblue;
+    word-wrap: break-word;
+}
+
+.remainingdatetime {
+    width: 100px;
+    text-align: center;
+    margin: 15px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 4px;
+    border-radius: 20%; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(79, 75, 75);
+    padding: 5px;
+    margin:5px;
+}
+
+.cancelbtn{
+    font-size: 26px;
+    padding: 2px;
+    cursor: pointer;
+    background-color: rgb(79, 75, 75);
+    border-radius: 14px;
+    outline : none;
+    border-color: rgb(61, 57, 57);
+}
+
+.tickbtn{
+    font-size: 28px;
+    font-weight: bolder;
+    padding-right: 7px;
+    padding-left: 7px;
+    cursor: pointer;
+    background-color: rgb(79, 75, 75);
+    border-radius: 14px;
+    outline : none;
+    color :white;
+    border-color: rgb(61, 57, 57);
+}
+
+/* Scrollbar content */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    padding-left: 30px;
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#8a6cdb, #e178d5);
+    border-radius: 10px;
+}
